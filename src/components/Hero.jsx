@@ -36,7 +36,7 @@ const Hero = () => {
       opacity:1,
       y: -50,
       delay: 2.5,
-      duration:2
+      duration:1.5
     })
   },[])
 
@@ -46,7 +46,12 @@ const Hero = () => {
         <p id="hero" className='hero-title'>iPhone 15 Pro</p>
         {/* video hero */}
         <div id="video" className='opacity-0 md:w-10/12 w-9/12 transition-opacity'>
-          <video className='pointer-events-none' autoPlay muted playsInline={true} key={videoSrc}>
+          <video 
+          className='pointer-events-none' 
+          autoPlay 
+          muted 
+          playsInline={true} 
+          key={videoSrc}>
             <source src={videoSrc} type='video/mp4'/>
           </video>
         </div>
