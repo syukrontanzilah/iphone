@@ -1,4 +1,9 @@
-import { Hero, Highlights, Navbar } from "./components"
+import { 
+  Hero, 
+  Highlights, 
+  Model, 
+  Navbar 
+} from "./components"
 import { appleImg, heroImg, watchImg } from "./utils"
 
 const App = () => {
@@ -8,7 +13,7 @@ const App = () => {
     <Navbar/>
     <Hero/>
     <Highlights/>
-    
+    <Model/>
   </main>
   
   )
